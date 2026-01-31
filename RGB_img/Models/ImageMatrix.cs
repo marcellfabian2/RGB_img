@@ -29,7 +29,7 @@ namespace RGB_img.Models
 
             for (int y = 0; y < Height; y++)
             {
-                string[] values = lines[y].Split(';'); 
+                string[] values = lines[y].Split(); 
 
                 if (values.Length != Width * 3)
                     throw new Exception($"Hibás adatszám a(z) {y}. sorban.");
