@@ -59,7 +59,7 @@ namespace RGB_img
                         Width = CellSize,
                         Height = CellSize,
                         Fill = new SolidColorBrush(
-                            Color.FromArgb(p.R, p.G, p.B))
+                            Color.FromRgb(p.R, p.G, p.B))
 
                     };
 
