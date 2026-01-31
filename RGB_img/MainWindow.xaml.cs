@@ -63,8 +63,8 @@ namespace RGB_img
 
                     };
 
-                    Canvas.SetLeft(rect, x * CellSize); 
-                    Canvas.SetTop(rect, y * CellSize);
+                    Canvas.SetLeft(rect, y * CellSize); 
+                    Canvas.SetTop(rect, x * CellSize);
 
                     MainCanvas.Children.Add(rect);
                 }
