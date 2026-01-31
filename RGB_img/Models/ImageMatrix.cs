@@ -37,9 +37,9 @@ namespace RGB_img.Models
                 int index = 0;
                 for (int x = 0; x < Width; x++)
                 {
-                    byte r = byte.Parse(values[index]);
-                    byte g = byte.Parse(values[index]);
-                    byte b = byte.Parse(values[index]);
+                    byte r = byte.Parse(values[index++]);
+                    byte g = byte.Parse(values[index++]);
+                    byte b = byte.Parse(values[index++]);
 
                     Pixels[y, x] = new Pixel(r, g, b);
                 }
