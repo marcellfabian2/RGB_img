@@ -24,7 +24,7 @@ namespace RGB_img.Models
         {
             string[] lines = File.ReadAllLines(filePath);
 
-            if (lines.Length != Width) 
+            if (lines.Length != Height) 
                 throw new Exception("Hibás sorszám a fájlban.");
 
             for (int y = 0; y < Height; y++)
